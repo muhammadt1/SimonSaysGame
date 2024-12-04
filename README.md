@@ -22,13 +22,3 @@ This project recreates the simon says game using the following:
 - The rounds begin once any of the four push buttons have been pushed.
 
 <b>Game Rounds</b>
-- The rounds begin at level 1 and progress all the way to level 10.
-- At round 1, one of the LED's will be randomly displayed. It is then the players job to press the appropriate coorelated button to move on to the next level.
-- As the game progresses, the levels remember the pattern of the previous levels and the user must get it fully correct until level 10 to win the game.
-
-- For example:
-1) Level 1 Outputs any of the 4 LED's
-2) Level 2 Outputs the same LED from level 1, aswell as another random LED for level 2.
-3) Level 3 Outputs the LED's from level 1 and 2, aswell as the new LED for level 3.
-
-This will continue until the player reaches level 10 OR will run the failure sequence if the player fails to follow the pattern.
