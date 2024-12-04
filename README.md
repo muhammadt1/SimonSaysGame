@@ -16,9 +16,6 @@ This project recreates the simon says game using the following:
 - Once the breadboard and STM are setup accordingly, the main program must be loaded onto the STM initate the game. This will then begin the starting sequence of the game.
 
 ### Game Instructions
-<b>Starting Sequence</b>
-- The game begins with the knight rider sequence.
-- This sequence turns on 1 LED at a time and goes back and fourth across all 4 of the LED's.
-- The rounds begin once any of the four push buttons have been pushed.
-
-<b>Game Rounds</b>
+1) While the knight rider sequence is running, press any of the 4 buttons to start the rounds.
+2) Follow the round by round pattern until level 10 is reached (winning sequence).
+3) Failure to press correct button OR taking too long to press a button results in losing the game (failure sequence)
