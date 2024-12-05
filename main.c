@@ -4,7 +4,6 @@
 
 int main() {
 	while(1){
-		
 		//array storing sequence for LED patterns
 		int pattern[gameRounds];        
 		int current_round = 0;           
