@@ -14,7 +14,6 @@ This project recreates the simon says game using the following:
 
 ### Circuit Setup
 - The STM and breadboard must me configured as per the [schematic](SimonSaysSchematic.pdf).
-
 - Once the breadboard and STM are setup accordingly, the main program must be loaded onto the STM initate the game. This will then begin the starting sequence of the game.
 
 ### Game Instructions
