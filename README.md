@@ -30,7 +30,7 @@ Winning Sequence
 - Displays after completing all 10 levels.
 - Outputs 10 in binary (1010)
 
-## Losing Sequence 
+Losing Sequence 
 - All four LEDs blink simultaneously 4 times (0.85s on, 0.85s off)
 - Shows when player fails pattern or exceeds 5s time limit
 - Outputs score achieved by player. Ex) If a player messes up at level 3, it will output a score of 2 (0100)
