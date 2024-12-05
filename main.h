@@ -1,6 +1,10 @@
 #include "stm32f10x.h"
 #include <stdlib.h> 
 
+//Max amount of rounds.
+int gameRounds = 3;
+int numLeds = 4;
+
 /*
 	LED1 through LED4 turn on specific LEDs by setting bits in the ODR.
 */
