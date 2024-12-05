@@ -91,9 +91,9 @@ void initilization() {
 void delay(int time) {
 	int i, j;
 	for(i = 0; i < time; i++){
-			for(j = 0; j < time; j++){
+		for(j = 0; j < time; j++){
 			
-			}
+		}
 	}
 }
 
@@ -205,7 +205,7 @@ void patternDisplay(int *pattern, int size) {
 	for (int i = 0; i <= size; i++) {
 		all_leds_off();
 		
-    if (pattern[i] == 0)
+    	if (pattern[i] == 0)
 		{
 			LED1On();
 		}
@@ -271,16 +271,16 @@ unsigned int buttonCheck(int *pattern, int size) {
 			if ((GPIOB->IDR & (1 << 8)) == 0) {
 				LED3On();
 				if (pattern[i] == 2) 
-						{
-							correct++;
-						}
+				{
+					correct++;
+				}
 				else{
-							return 0;
-						}  
-						delay (500);
-						all_leds_off();
-						delay(800);
-						break;
+					return 0;
+				}  
+				delay (500);
+				all_leds_off();
+				delay(800);
+				break;
 			}
 			if ((GPIOB->IDR & (1 << 9)) == 0) {
 				LED4On();
@@ -301,11 +301,11 @@ unsigned int buttonCheck(int *pattern, int size) {
 		}
 		i++;
 	}
-		if (correct == i) {
-			return seed;
-		} else {
-			return 0;
-		}
+	if (correct == i) {
+		return seed;
+	} else {
+		return 0;
+	}
 
 
 }
@@ -366,7 +366,7 @@ void binaryResult(int score) {
 			LED4On();
 			break;      
     	case 10:
-			ED2On();
+			LED2On();
 			LED4On();
 			break;
 	}
