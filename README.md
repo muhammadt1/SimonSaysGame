@@ -2,7 +2,7 @@
 ### Description
 Simon says is a popular game based off of a toy, in which a randomized pattern is generated at different levels and users must memorize the pattern and input it onto a set of four buttons.
 
-<b>Project Demonstration:</b> https://www.youtube.com/watch?v=eCWkY88BI74
+<b>Project Demonstration:</b> https://youtu.be/QaUWFxio2hI
 
 This project recreates the simon says game using the following: 
 - STM32F103RB
