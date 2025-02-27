@@ -5,7 +5,7 @@ Simon says is a popular game based off of a toy, in which a randomized pattern i
 <b>Project Demonstration:</b> https://youtu.be/QaUWFxio2hI
 
 
-This project recreates the simon says game using the following: 
+This project recreates the simon says game using the following 
 - STM32F103RB
 - Breadboard
 - 4 LED's (Red)
